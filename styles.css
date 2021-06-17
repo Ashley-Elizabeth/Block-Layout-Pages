@@ -1,0 +1,86 @@
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 100;
+    font-style: normal;
+    font-family: Verdana;
+    padding: 30px;
+    text-decoration: underline wavy #ffd1dc;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #89aee1;
+  }
+  
+  p {
+    font-size: 12px;
+  /*   line-height: 100px; */
+  /*   word-spacing: 100px; */
+  /*   letter-spacing: 10px; */
+  }
+  
+  nav,ul, li {
+    display: inline-block;
+  }
+  ul a {
+    font-size: 15px;
+    color: steelblue;
+    margin: 0 20px;
+    text-transform: uppercase;
+  }
+  
+  p a {
+    font-size: 20px;
+    text-decoration: cyan wavy underline;
+    
+  }
+  
+  #brand {
+    letter-spacing: 10px;
+    text-decoration: none;
+    color: pink;
+    text-decoration: overline underline  wavy #89aee1;
+  }
+  
+  
+  body{
+    font-family: Lucida Console, Monaco, monospace;
+  }
+  
+  
+  h2 {
+    text-shadow: -2px 2px  magenta, -4px 4px cyan, -6px 6px yellow;
+  }
+
+  .button {
+    font-size: 18px;
+    color: steelblue;
+    margin: 0 20px;
+    text-transform: uppercase;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: -14px;
+  }
+
+  div {
+    
+    background-color: pink;
+    border: 2px solid pink;
+    width: 550px;
+    height: 275px;
+    box-sizing: border-box; 
+    border: solid #5B6DCD 4px;
+    padding: 10px;
+    font-size: 18px;
+
+  }
+
+  .card {
+      font-size: 18px;
+  }
+
+p::first-letter {
+    font-size: 230%;
+}
+
+li a {
+    text-decoration: none;
+}
